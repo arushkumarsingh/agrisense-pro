@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+
+# Docker
+.dockerignore
+
+# Data
+data/raw/*.parquet # If you want to ignore large raw data files from version control
+data/processed/
+data/quality_reports/
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs
+*.log
