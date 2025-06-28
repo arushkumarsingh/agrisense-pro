@@ -5,6 +5,13 @@ import os
 from typing import Dict, Any, List
 from dataclasses import dataclass
 
+@dataclass
+class Data:
+    sensor_id : str
+    timestamp: str
+    reading_type: str
+    value: float
+    battery_level: float = 100.0  # Default battery level if not provided
 
 @dataclass
 class CalibrationParams:
